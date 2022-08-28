@@ -35,19 +35,18 @@
 }
 
 .nav-menu {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 10px; */
   list-style: none;
   text-align: center;
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
 }
-
+/* 
 .nav-item {
-  /* height: 80px; */
-  margin-right: 4px;
+  height: 80px;
 }
 
 .nav-links {
@@ -61,7 +60,7 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
-  /* transition: all 0.2s ease-out; */
+  transition: all 0.2s ease-out;
 }
 
 .fa-bars {
@@ -156,4 +155,4 @@
     color: #242424;
     transition: 250ms;
   }
-} 
+} */  

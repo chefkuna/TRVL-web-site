@@ -35,9 +35,7 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  display: flex;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -80,7 +78,8 @@
   .NavbarItems {
     position: relative;
   }
-
+}
+/*
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -156,4 +155,4 @@
     color: #242424;
     transition: 250ms;
   }
-} 
+} */  

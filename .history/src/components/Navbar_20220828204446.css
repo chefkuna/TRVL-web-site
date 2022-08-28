@@ -35,9 +35,7 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  display: flex;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -47,9 +45,9 @@
 
 .nav-item {
   /* height: 80px; */
-  margin-right: 4px;
+  margin-right: 6px;
 }
-
+/* 
 .nav-links {
   color: #fff;
   display: flex;
@@ -61,7 +59,7 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
-  /* transition: all 0.2s ease-out; */
+  transition: all 0.2s ease-out;
 }
 
 .fa-bars {
@@ -156,4 +154,4 @@
     color: #242424;
     transition: 250ms;
   }
-} 
+} */  

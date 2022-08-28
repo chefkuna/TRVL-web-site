@@ -35,9 +35,7 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  display: flex;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -100,7 +98,8 @@
     transition: all 0.5s ease;
     z-index: 1;
   }
-
+}
+/*
   .nav-links {
     text-align: center;
     padding: 2rem;
@@ -156,4 +155,4 @@
     color: #242424;
     transition: 250ms;
   }
-} 
+} */  

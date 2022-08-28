@@ -61,7 +61,7 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
-  /* transition: all 0.2s ease-out; */
+  transition: all 0.2s ease-out;
 }
 
 .fa-bars {
@@ -156,4 +156,4 @@
     color: #242424;
     transition: 250ms;
   }
-} 
+}

@@ -35,9 +35,7 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  display: flex;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -107,7 +105,8 @@
     width: 100%;
     display: table;
   }
-
+}
+/*
   .nav-links:hover {
     background-color: #fff;
     color: #242424;
@@ -156,4 +155,4 @@
     color: #242424;
     transition: 250ms;
   }
-} 
+} */  
