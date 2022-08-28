@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
+import { unstable_renderSubtreeIntoContainer } from 'react-dom';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
-import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    setClick(!click);
+  }
 
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {
+    setClick(false);
+  }
   
   const showButton = () => {
     if(window.innerWidth <= 960) {
@@ -17,9 +20,7 @@ function Navbar() {
     } else {
       setButton(true);
     }
-  };
-
-  window.addEventListener('resize', showButton)
+  }
 
   return (
     <>
@@ -47,7 +48,7 @@ function Navbar() {
                 Products
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Sign Up
               </Link>
@@ -57,7 +58,7 @@ function Navbar() {
         </div>
       </nav>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

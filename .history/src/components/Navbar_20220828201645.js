@@ -47,7 +47,7 @@ function Navbar() {
                 Products
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Sign Up
               </Link>
@@ -57,7 +57,7 @@ function Navbar() {
         </div>
       </nav>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
