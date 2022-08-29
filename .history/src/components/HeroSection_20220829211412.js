@@ -5,6 +5,7 @@ import './HeroSection.css';
 import bgVideo from './video-2.mp4';
 
 function HeroSection() {
+  console.log('video!!');
   return (
     <div className='hero-container'>
       <video autoPlay loop muted>

@@ -5,6 +5,7 @@ import './HeroSection.css';
 import bgVideo from './video-2.mp4';
 
 function HeroSection() {
+  console.log('video!!');
   return (
     <div className='hero-container'>
       <video autoPlay loop muted>
@@ -12,20 +13,21 @@ function HeroSection() {
       </video>
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
-      <div className="hero-btns">
-        <Button 
-          className='btns' 
-          buttonStyle='btn--outline' 
+      <div className='hero-btns'>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           GET STARTED
         </Button>
-        <Button 
-          className='btns' 
-          buttonStyles='btn--primary' 
+        <Button
+          className='btns'
+          buttonStyle='btn--primary'
           buttonSize='btn--large'
+          onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className="far fa-play-circle"></i>
+          WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>
