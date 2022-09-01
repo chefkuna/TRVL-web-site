@@ -1,21 +1,19 @@
 .navbar {
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+   */
   background: transparent;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  margin-top : -80px;
   position: sticky;
   top: 0;
   z-index: 999;
-  
 }
 
 .navbar.active {
-  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  background-color: #242424;
-  transition: all 0.3s ease-in-out;
+  background: linear-gradient(90deg, rgb(66, 2, 194) 0%, rgb(0, 78, 194) 100%);
 }
 
 .navbar-container {

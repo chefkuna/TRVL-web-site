@@ -27,18 +27,14 @@ function Navbar() {
   window.addEventListener('resize', showButton)
 
   const changeBackground = () => {
-    if(window.scrollY >= 80) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+    console.log(window.scrollY);
   }
 
   window.addEventListener('scroll', changeBackground);
 
   return (
     <>
-      <nav className={navbar ? 'navbar active' : 'navbar'}>
+      <nav className="navbar active">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             TRVL <i className="fab fa-typo3"></i>
