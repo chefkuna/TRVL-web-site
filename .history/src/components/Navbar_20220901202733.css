@@ -13,8 +13,8 @@
 }
 
 .navbar.active {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  /* background-color: #242424; */
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  background-color: #242424;
   /* transition: all 0.3s ease-in-out; */
 }
 
@@ -69,7 +69,7 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
-  /* transition: all 0.01s ease-out; */
+  /* transition: all 0.2s ease-out; */
 }
 
 .fa-bars {
